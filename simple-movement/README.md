@@ -103,7 +103,9 @@ Delete the two `show_debug_message(string)` functions and add to both the `hspee
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the left, right, up and down arrow on the keyboard.  Now the circle moves around the screen.  But woops it can go off screen and disapear.
+
+![player moves in eight directions but leaves level](images/TwoAxis8DirectionMovement.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
