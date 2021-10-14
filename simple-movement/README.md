@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Add Title
+### Simple Movement in 8 Directions
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-move-in-8-directions) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+We will use **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/hspeed.htm)** and **[vspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/vspeed.htm)** to move the player around the 2d level.
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Create a new level by right clicking on **Rooms** and select **Create | Room** and call it `rm_simple_movement`.  Open up **Room Order** and *drag* it to the top of the list if you have other rooms in your project.
+
+![create rm_simple_movement and move to top of room order](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
