@@ -139,7 +139,7 @@ Now lets have the player character look at the direction it is moving in.  Now w
 
 Add the following to **obj_player: Step** event script.
 
-![alt_text](images/.png)
+![set image_angle to direction](images/setImageAngle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
