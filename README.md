@@ -2,11 +2,11 @@
 
 
 <!-- OVERVIEW -->
-## Overview
+## Move in 8 Directions
 
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
 
-We will look at moving an non playable character in gamemaker (GML).
+Lets look at various ways of moving a human character in 8 dirctions.
 
 * Tested on GameMake Studio2.3.5.589
 * An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
