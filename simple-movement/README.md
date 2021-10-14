@@ -145,7 +145,9 @@ Add the following to **obj_player: Step** event script.
 
 ##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run the game and notice that the rotation is wrong.  The player is rotating along its origin or the top left corner. This looks really bad when turning.
+
+![turning the player in game looks jerky](images/BadTurning.gid)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
