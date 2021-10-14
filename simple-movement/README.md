@@ -112,13 +112,22 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Since the entire level is in this one window we can wrap the player when it goes off screen. **GameMaker** has built in functions for a lot of very common game issues and this is one of them: **[move_wrap(hor, vert, margin)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_wrap.htm)**
+
+The **hor** and **vert** are **booleans** so you can set it to wrap either just vertically or horizontally or both.  The margin adjusts so that the sprite has to be offscreen by so many pixels.  In our case it is only completely off screen when half the sprite_get_width(spr_circle) is off screen.  
+
+Add the following to obj_circle_movement: Step event script.
+
+![add move_wrap to level to stop player from leaving level](images/addMoveWrap.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the left, right, up and down arrow on the keyboard.  Now go off screen both horizontally and vertically and it reappears on the other side.  Works like a charm and you can never exit the play volume! 
+
+![play game and try and leave level but player wraps](images/MoveWrap.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
