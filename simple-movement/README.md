@@ -67,7 +67,7 @@ Lets prove it.  We will use another new function **[show_debug_message(string)](
 
 You should have an Output tab in the bottom.  If you don't see it you can select **Window | Output** and it will appear in the bottom section (you might have to expand it to see it better). Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and press the <kbd>left</kbd> and <kbd>right</kbd> arrows (and both at the same time) then see the values being printed to reflect the outcome.
 
-![play game and see output for when pressing left and right buttons on keyboard](images/.gif)
+![play game and see output for when pressing left and right buttons on keyboard](images/PrintRightControls.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
