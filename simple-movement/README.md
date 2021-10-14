@@ -89,6 +89,14 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
+Now what is nice about having a range of -1 to 1 is that we can scale it by multiplying it.  If we want to move at a speed of 5 we can multiply this value by 5 and it will range from -5 to 5.  What we will do is set the movement component for each axis.  This is through two variables that comes with every object. <a href="gms2tutorials:///ShowHelp?tag=vspeed">vspeed</a> and <a href="gms2tutorials:///ShowHelp?tag=hspeed">hspeed</a>
+
+> hspeed is one of the "built in" properties that all instances have and defines the horizontal movement speed (along the x-axis) of the instance in pixels per step. So, an hspeed of 3 means 3 pixels of movement to the right (+x) every step, and an hspeed of -3 would mean 3 pixels of movement to the left (-x) every step. - GameMake Manual
+
+> vspeed is one of the "built in" properties that all instances have and defines the vertical movement speed (along the y-axis) of the instance in pixels per step. So, a vspeed of 3 means 3 pixels of movement to the bottom (+y) every step, and a vspeed of -3 would mean 3 pixels of movement to the top (-y) every step.
+
+Delete the two show_debug_message(string) functions and add to both the hspeed and vspeed of the object like so:
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
