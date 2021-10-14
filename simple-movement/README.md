@@ -17,7 +17,7 @@ We will use **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Refer
 
 Create a new level by right clicking on **Rooms** and select **Create | Room** and call it `rm_simple_movement`.  Open up **Room Order** and *drag* it to the top of the list if you have other rooms in your project.
 
-![create rm_simple_movement and move to top of room order](images/.png)
+![create rm_simple_movement and move to top of room order](images/RmSimpleMovement.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
