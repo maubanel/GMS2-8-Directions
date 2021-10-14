@@ -14,7 +14,7 @@ Lets look at various ways of moving a human character in 8 dirctions.
 
 <!-- TOC -->
 ## Table of Contents
-<kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-simple-movement) <br>
+<kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-simple-movement-in-8-directions) <br>
 
 
 
