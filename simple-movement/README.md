@@ -39,13 +39,17 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and add a **Create** and center the object in the dead center of the room.
+
+![add create and event and center player](images/CenterPlayerInCreate.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Open up **rm_simple_movement** and drag and drop a **obj_player** into the level. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
+
+![add obj_player to rm_simple_movement and press play](images/dragAndPlay.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
