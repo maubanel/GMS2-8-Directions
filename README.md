@@ -1,9 +1,7 @@
-# GMS2 NPC Movement
+# GMS2 Move in 8 Directions
 
 
 <!-- OVERVIEW -->
-## Move in 8 Directions
-
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
 
 Lets look at various ways of moving a human character in 8 dirctions.
