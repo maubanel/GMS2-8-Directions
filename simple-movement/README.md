@@ -153,7 +153,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **spr_player** and press the **Origin | Middle Center** option to center the origin.  We want the sprite to rotate in its center of gravity.
+
+![center player origin](images/CenterPlayerOrigin.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
