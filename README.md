@@ -19,12 +19,11 @@ Lets look at various ways of moving a human character in 8 dirctions.
 <kbd></kbd> &nbsp;&nbsp; [Fix Diagonal Speed](diagonal-speed/README.md#user-content-fix-diagonal-speed) <br>
 
 ## Core Algorithm
-* Get Controls
-* Update player phyics 
-* Move and rotate player based on above physics (resolve physics if using speed/hspeed/vspeed automatically happens between step and end step events)
-* Resolve collision -> Decide on final state (walking, running, stopped etc...)
-* Select Animation
-
+1. Get Controls
+2. Update player phyics 
+3. Move and rotate player based on above physics (resolve physics if using speed/hspeed/vspeed automatically happens between step and end step events)
+4. Resolve collision -> Decide on final state (walking, running, stopped etc...)
+5. Select Animation
 
 
 <!-- LICENSE -->
