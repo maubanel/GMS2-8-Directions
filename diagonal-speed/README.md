@@ -15,9 +15,9 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-Create two fonts by right clicking on **Fonts** and select **Create | Font**.  Name one `fnt_title` and the other `fnt_hud`. Make the **fnt_hud** a **Size** of `12` and **Style** set to `Regular`. Make the **fnt_title** a **Size** of `36` and **Style** set to `Bold`.  
+*Right click* on **Sprites** and select **New | Sprite** and name it `spr_player_2`. Press the <kbd>Edit Image</kbd> button and draw a top down view of a sprite.  Make it a different color from the first one.  Set the **Origin** to `Middle Center`.
 
-![add fnt_title and fnt_hud](images/twoFonts.png)
+![create spr_player_2 and make a top down view of character and center origin](images/spr_player_2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
