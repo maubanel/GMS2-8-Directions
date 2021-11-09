@@ -85,13 +85,15 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Download [8DirectionTopDownMovement.yymps](../Assets/8DirectionTopDownMovement.yymps). This is a resized sprite provided by [RGS Dev on itch.io](https://rgsdev.itch.io/animated-top-down-character-base-template-in-pixel-art-rgsdev). Select the **Tools | Import Local Package** menu item.  Open the file you just downloaded above.
 
-![alt_text](images/openLocalPackage.png)
+![download 8DirectionTopDownMovement.yymps](images/openLocalPackage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the folder and press the <kbd>Add All</kbd> button.  Make sure you are downloading 8 walk and 8 idle animations.  Press the <kbd>Import</kbd> button to bring them into your project.
+
+![import 16 animations](images/addImport.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
