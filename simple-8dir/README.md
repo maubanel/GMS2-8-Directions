@@ -150,13 +150,17 @@ So press the <kbd>Add Event</kbd> button and select a **Step | End Step** event.
 
 ##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Add title to **obj_game | Draw GUI** event for this new room.
+
+![add title for simple 8 direction room](images/addToObjGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Step | Step** event. Then we will check to see if the space button is pressed.  If it is and there is another room then move to the next room in **Room Order**.  If there are no more rooms then go back to the first room.
+
+![add step event to switch rooms to obj_game](images/stepObjGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
