@@ -15,7 +15,7 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-Create two fonts by right clicking on **Fonts** and select **Create | Font**.  Name one `fnt_title` and the other `fnt_hud`. Make the **fnt_hud** a **Size** of `12` and **Style** set to `Regular`. Make the **fnt_title** a **Size** of `36` and **Style** set to `bold`.  
+Create two fonts by right clicking on **Fonts** and select **Create | Font**.  Name one `fnt_title` and the other `fnt_hud`. Make the **fnt_hud** a **Size** of `12` and **Style** set to `Regular`. Make the **fnt_title** a **Size** of `36` and **Style** set to `Bold`.  
 
 ![add fnt_title and fnt_hud](images/twoFonts.png)
 
@@ -23,13 +23,20 @@ Create two fonts by right clicking on **Fonts** and select **Create | Font**.  N
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets show that the speed is different in diagonals.  Open up **obj_player_simple** and press the <kbd>Add Event</kbd> button and select a **Draw | Draw GUI** event.
+
+* Select the font
+* Align the font to the left
+* Set the color to white
+* Draw **speed**, **direction**, **hspeed** and **vspeed** to screen
+
+![add draw gui event and print speed, direction, hspeed and vspeed to screen](images/drawSimpleGUI.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/speedWrongDiag.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
