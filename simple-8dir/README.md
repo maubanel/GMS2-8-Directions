@@ -1,6 +1,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Simple Movement in 8 Directions
+### Simple Movement 8 Directions
 
 <sub>[previous](../simple-movement/README.md#user-content-simple-movement-in-8-directions) • [home](../README.md#user-content-gms2-move-in-8-directions) • [next](../diagonal-speed/README.md#user-content-fix-diagonal-speed)</sub>
 
