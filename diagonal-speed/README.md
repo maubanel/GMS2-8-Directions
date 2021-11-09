@@ -31,7 +31,7 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_diagonals`. Drag a **obj_player_diagonals** into the new room.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_player_diagonals`. Drag a **obj_player_diagonals** into the new room.
 
 ![add new room called rm_diagonals and add player to room](images/addRoomPlayer.png)
 
