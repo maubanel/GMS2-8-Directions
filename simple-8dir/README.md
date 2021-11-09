@@ -194,8 +194,14 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
 
-Now lets add an idle animation instead of freezing the player. So remove the stopping and starting of the animation.  Wrap the setting the walk animation in an `if (Speed != 0)
-![alt_text](images/EndStepIdle.png)
+Now lets add an idle animation instead of freezing the player. 
+
+*Right click* on **obj_player_simple_8Dir** and select **Duplicate** and name it `obj_player_simple_8Dir_idle`. Open up the **Step** event.
+
+Now remove the stopping and starting of the animation. Wrap the setting the walk animation in an `if (Speed != 0)` so only select the walking animation if the player has speed.  Then add an `else` and switch animations to the matching idle animation.
+
+
+![add idle animation to step](images/EndStepIdle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
