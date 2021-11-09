@@ -36,13 +36,17 @@ Now lets show that the speed is different in diagonals.  Open up **obj_player_si
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you play the first level you notice the speed is **3.54** when running in diagonals and we want it to be limited to **2.5** as a maximum speed.
+
 ![alt_text](images/speedWrongDiag.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_game`. Set the **Persistance** to `true` so this object will go from room to room as we add more levels.
+
+![add persistent object obj_game](images/objGamePersistent.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
