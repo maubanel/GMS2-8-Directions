@@ -107,7 +107,7 @@ Now if you press the play button on the sprites you will see that we have 8 dire
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-Right click on **obj_player_simple** and select **Duplicate**.  Name the new sprite `obj_player_simple_4Dir`. Assign `spr_player_walk_0` to the **Sprite:**  in the game object.
+Right click on **obj_player_simple** and select **Duplicate**.  Name the new sprite `obj_player_simple_8Dir`. Assign `spr_player_walk_0` to the **Sprite:**  in the game object.
 
 ![duplicate obj_player_simple and change to 4dir](images/dupePlayer.png)
 
