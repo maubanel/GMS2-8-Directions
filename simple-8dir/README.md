@@ -134,9 +134,9 @@ Now we normally:
 
 So in the **Step** event we get the controls, update the player physics.  But the player does not move at that point when using `speed`, `hspeed` or `vspeed`.  The position will change between the **Step** and the **End Step** event.  This means that to resolve collisions, we only know if an object is colliding in the **End Step**.  
 
-So press the <kbd>Add Event</kbd> button and select a **Step | End Step** event.
+So press the <kbd>Add Event</kbd> button and select a **Step | End Step** event. Then we **switch** on the **Direction** the player is moving in and select the appropriate sprite.
 
-![alt_text](images/endStep.png)
+![add an end step event and select animation based on direction](images/endStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
