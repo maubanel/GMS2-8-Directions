@@ -44,7 +44,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **Objects** and select **New | Object** and name it `obj_game`. Set the **Persistance** to `true` so this object will go from room to room as we add more levels.
+*Right click* on **Objects** and select **New | Object** and name it `obj_game`. Set the **Persistent** to `true` so this object will go from room to room as we add more levels.
 
 ![add persistent object obj_game](images/objGamePersistent.png)
 
