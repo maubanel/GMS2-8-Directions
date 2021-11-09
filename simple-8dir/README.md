@@ -124,7 +124,19 @@ Open up the **obj_player_simple_4Dir | Step** event and comment out or delete
 
 ##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we normally:
+
+1. Get Controls
+2. Update player phyics 
+3. Move and rotate player based on above physics (resolve physics if using speed/hspeed/vspeed automatically happens between step and end step events)
+4. Resolve collision -> Decide on final state (walking, running, stopped etc...)
+5. Select Animation
+
+So in the **Step** event we get the controls, update the player physics.  But the player does not move at that point when using `speed`, `hspeed` or `vspeed`.  The position will change between the **Step** and the **End Step** event.  This means that to resolve collisions, we only know if an object is colliding in the **End Step**.  
+
+So press the <kbd>Add Event</kbd> button and select a **Step | End Step** event.
+
+![alt_text](images/endStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
