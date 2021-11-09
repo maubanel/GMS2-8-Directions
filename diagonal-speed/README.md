@@ -61,19 +61,20 @@ Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 * Switch on the room to have different titles in different rooms
 * Draw text to top center of screen
 
-![alt_text](images/drawGUIGame.png)
+![add draw gui event and add title to level](images/drawGUIGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/drawGUIGame.gif)
+Open up **rm_**
+![alt_text](images/addGameToRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/titleInGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
