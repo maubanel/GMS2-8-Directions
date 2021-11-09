@@ -142,7 +142,9 @@ So press the <kbd>Add Event</kbd> button and select a **Step | End Step** event.
 
 ##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/8dirroom.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_simple_movement_8Dir`. Drag and drop **obj_player_simple_8Dir** to level.
+
+![creat a new room rm_simple_movement_8Dir and drag player into room](images/8dirroom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
