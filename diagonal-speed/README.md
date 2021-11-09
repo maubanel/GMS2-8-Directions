@@ -31,9 +31,9 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you play the first level you notice the speed is **3.54** when running in diagonals and we want it to be limited to **2.5** as a maximum speed.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_diagonals`. Drag a **obj_player_diagonals** into the new room.
 
-![alt_text](images/speedWrongDiag.gif)
+![add new room called rm_diagonals and add player to room](images/addRoomPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
