@@ -15,7 +15,7 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-Create two fonts by right clicking on **Fonts** and select **Create | Font**.  Name one `fnt_title` and the other `fnt_hud`. Make the **fnt_hud** a **Size** of `12` and **Style** set to `Regular`.Make the **fnt_title** a **Size** of `36` and **Style** set to `bold`.  
+Create two fonts by right clicking on **Fonts** and select **Create | Font**.  Name one `fnt_title` and the other `fnt_hud`. Make the **fnt_hud** a **Size** of `12` and **Style** set to `Regular`. Make the **fnt_title** a **Size** of `36` and **Style** set to `bold`.  
 
 ![add fnt_title and fnt_hud](images/twoFonts.png)
 
