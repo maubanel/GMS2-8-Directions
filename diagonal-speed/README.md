@@ -83,7 +83,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [8DirectionTopDownMovement.yymps](../Assets/8DirectionTopDownMovement.yymps). This is a resized sprite provided by [RGS Dev on itch.io](https://rgsdev.itch.io/animated-top-down-character-base-template-in-pixel-art-rgsdev). 
+Download [8DirectionTopDownMovement.yymps](../Assets/8DirectionTopDownMovement.yymps). This is a resized sprite provided by [RGS Dev on itch.io](https://rgsdev.itch.io/animated-top-down-character-base-template-in-pixel-art-rgsdev). Select the **Tools | Import Local Package** menu item.  Open the file you just downloaded above.
 
 ![alt_text](images/openLocalPackage.png)
 
