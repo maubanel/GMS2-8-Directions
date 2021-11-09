@@ -99,7 +99,9 @@ Select the folder and press the <kbd>Add All</kbd> button.  Make sure you are do
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now if you press the play button on the sprites you will see that we have 8 directions of walking and idle animations.
+
+![play animation of player walking right](images/ImportAnims.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
