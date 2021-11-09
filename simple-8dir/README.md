@@ -207,7 +207,9 @@ Now remove the stopping and starting of the animation. Wrap the setting the walk
 
 ##### `Step 21.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addIdleToRoom.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_simple_movement_8Dir_idle`. Open up **obj_game | Draw GUI** event and add a title for this room.
+
+![create new room for idle and add title to obj_game](images/addIdleToRoom.png)
 
 ___
 
