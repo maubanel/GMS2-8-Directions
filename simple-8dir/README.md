@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now if we are moving at the same magnitude on the horizontal and vertical axis then our speed ends up being 1.414 times faster than in an orthoganal direction.  We can figure this out by applying Pythagorean theorem.  The magnitude will be the square root of (horizontal squared + vertical squared). so the square root of 1<sup>2</sup> + 1<sup>2</sup>  is 1.414. Lets instead use direction and calculate an angle then give it the same magnitude regardless of the key combination.
+Now lets use an animation that can move in eight directions. This way we can switch animations instead of rotating a top down sprite.
 
 <br>
 
@@ -107,14 +107,18 @@ Now if you press the play button on the sprites you will see that we have 8 dire
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/dupePlayer.png)
+Right click on **obj_player_simple** and select **Duplicate**.  Name the new sprite `obj_player_simple_4Dir`.
+
+![duplicate obj_player_simple and change to 4dir](images/dupePlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up the **obj_player_simple_4Dir | Step** event and comment out or delete 
+
+![alt_text](images/deleteImageAngle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
