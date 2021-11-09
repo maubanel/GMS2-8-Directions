@@ -211,6 +211,28 @@ Now remove the stopping and starting of the animation. Wrap the setting the walk
 
 ![create new room for idle and add title to obj_game](images/addIdleToRoom.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+![add idle animation to step](images/EndStepIdle.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 23.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The player now stops in the idle animation.  Now the two last implementations are all having the player face right when you let go of the joystick.  We will fix this nad the diagonal speed on the next walk through.
+
+![play game now player stops in idle animation](images/FinalPassIdle.gif)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 24.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
 ___
 
 
