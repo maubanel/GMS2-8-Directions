@@ -116,7 +116,7 @@ Right click on **obj_player_simple** and select **Duplicate**.  Name the new spr
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up the **obj_player_simple_4Dir | Step** event and comment out or delete 
+Open up the **obj_player_simple_8Dir | Step** event and comment out or delete 
 
 ![alt_text](images/deleteImageAngle.png)
 
