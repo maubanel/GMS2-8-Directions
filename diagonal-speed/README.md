@@ -23,14 +23,9 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now lets show that the speed is different in diagonals.  Open up **obj_player_simple** and press the <kbd>Add Event</kbd> button and select a **Draw | Draw GUI** event.
+*Right click* on **Objects** and select **New | Object** and name it `obj_player_diagonals`. Set the **Sprite** to `spr_player_2`.
 
-* Select the font
-* Align the font to the left
-* Set the color to white
-* Draw **speed**, **direction**, **hspeed** and **vspeed** to screen
-
-![add draw gui event and print speed, direction, hspeed and vspeed to screen](images/drawSimpleGUI.png)
+![add obj_player_diagonal to game](images/spr_player_diagonals.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
