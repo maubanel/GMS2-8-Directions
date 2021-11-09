@@ -178,7 +178,7 @@ Now if we look at the walking sprites. We want to pick a frame when both fee are
 
 We will also use **[image_speed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_speed.htm)** to adjust the speed of the animation.  A value of `1` will be the same speed as it runs in the **Sprite** editor at the **FPS** you set.  A value of `0` will stop the animation from running entirely.
 
-So we will be checking if the player is not moving.  If they are not then set the `image_speed = 0;` (don't play any animations). We will also set the `image_index = 5` (which is the last sixth frame).  If they are moving then we set the animation back to a **image_speed** of `1`.
+So we will be checking if the player is not moving.  If they are not then set the `image_speed = 0;` (don't play any animations). We will also set the `image_index = 5;` (which is the last sixth frame).  If they are moving then we set the animation back to a **image_speed** of `1`.
 
 ![alt_text](images/selectSprite.png)
 
@@ -186,7 +186,7 @@ So we will be checking if the player is not moving.  If they are not then set th
 
 ##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/8DirSecondPass.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
