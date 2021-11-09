@@ -207,7 +207,7 @@ Now remove the stopping and starting of the animation. Wrap the setting the walk
 
 ##### `Step 21.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addIdleToRoom.png)
 
 ___
 
