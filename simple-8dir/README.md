@@ -166,13 +166,21 @@ Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Step | St
 
 ##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the <kbd>Space Bar</kbd> to move to the next room.  Notice that the player keeps playing the walk animation when you are no longer moving.
+
+![play game, change rooms notice player does not stop walking](images/8DirFirstPass.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if we look at the walking sprites. We want to pick a frame when both fee are on the ground to use as an idle or a stopped frame.  In this case it is the sixth frame.  But they reference the **[image_index](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_index.htm)** by starting at frame `0`.  So the last sixth frame is **image_index 5**. 
+
+We will also use **[image_speed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_speed.htm)** to adjust the speed of the animation.  A value of `1` will be the same speed as it runs in the **Sprite** editor at the **FPS** you set.  A value of `0` will stop the animation from running entirely.
+
+So we will be checking if the player is moving.  If they are not then set the `image_speed = 0;` (don't play any animations)
+
+![alt_text](images/selectSprite.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
