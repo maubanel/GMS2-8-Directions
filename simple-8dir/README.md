@@ -186,13 +186,16 @@ So we will be checking if the player is not moving.  If they are not then set th
 
 ##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now your player pauses when you let go of the controller.
+
 ![alt_text](images/8DirSecondPass.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Now lets add an idle animation instead of freezing the player. So remove the stopping and starting of the animation.  Wrap the setting the walk animation in an `if (Speed != 0)
+![alt_text](images/EndStepIdle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
