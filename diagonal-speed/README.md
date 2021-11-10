@@ -51,6 +51,11 @@ Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event. Now lets 
 
 ![add draw gui event to player for HUD](images/objPlayerDrawGUI.png)
 
+1. Select **fnt_hud**
+2. Set color to white
+3. Left aligh the text
+4. Draw a HUD in the top left corner with **hspeed**, **vspeed**, **direction** and **speed**
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
