@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now lets add the 8 sides animations instead of rotating the player to this superior movement model.
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on **obj_player_diagonals** and select **Duplicate** then call the new object `obj_player_diagonals_8Dir`.
+
+![duplicate obj player diagonasl for 8Dir](images/dupeObjPlayerDiag.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
