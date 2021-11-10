@@ -74,14 +74,15 @@ Now what we are going to do is get a direction in degrees based on these two axi
 
 ![cartesian to polar transformation](images/CartesianToPola.png)
 
-![play game and see title in room](images/.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+To make the above angle conversion we will use **[point_direction(x1, y1, x2, y2)](https://docs.yoyogames.com/source/dadiospice/002_reference/maths/vector%20functions/point_direction.html)** and this function will return the angle in degrees.
 
-![download 8DirectionTopDownMovement.yymps](images/.png)
+![get axis and convert to polar](images/firstStepStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
