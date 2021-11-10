@@ -135,18 +135,22 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we can return the hud back to printing the directions normally.  Open up **obj_player_diagonals** and select the **Draw GUI** event.  Remove or comment out the 
+Now we can return the hud back to printing the directions normally.  Open up **obj_player_diagonals** and select the **Draw GUI** event.  Remove or comment out the string formatting and return to printing **direction** to the hud directly.
 
-![alt_text](images/normalDirection.png)
+![on player draw event return to priting direction](images/normalDirection.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now lets center the player and add movement.  Press the <kbd>Add Event</kbd> and select a **Create** event. We need to add a variable called `p_speed` that will hold the speed of the player based on pixel displacement per tick (frame).  Remember that **GameMaker** defaults to 60 frames per second, the step event runs 60 times every second.
+
+![add create event to player and center and add movement variables](images/centerMove.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
+
+centerMove
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 ![alt_text](images/.png)
