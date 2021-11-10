@@ -94,9 +94,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
+When we see a decimal point on what we expect is a whole number, there is a concern. This means there is most likely a fractional residue and we are not getting 180 without a decimal left over.  So if we use the 
 
-
-![play animation of player walking right](images/.gif)
+![play animation of player walking right](images/printFract.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
