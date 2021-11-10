@@ -149,11 +149,17 @@ Now lets center the player and add movement.  Press the <kbd>Add Event</kbd> and
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
-centerMove
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets open up **obj_player | Step** event and add a **[var](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Variables/Local_Variables.htm)** in front of our two axis for player input.  
+
+> A local variable is one that we create for a specific event or function only and then discard when the event or function has finished. Why would we need them? Well, variables take up space in memory and it may be that we are only going to use them for one operation or function in which case we only need to have it in memory for that short time that it's used. This keeps your code base clean and tidy as well as keeping memory space optimised for the things that really need it.  - GameMkaer manual
+
+We do not need to keep the two axis variablbes in memory all the time as it is only needed by the **step** event.  So putting `var` in front of it makes it a local variable and is not accessible outside this event.
+
+We will also 
+
+![alt_text](images/AddSpeedToSTep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
