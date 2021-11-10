@@ -23,7 +23,9 @@ Right click on **obj_player_diagonals** and select **Duplicate** then call the n
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Assign `spr_player_idle_0` as the default sprite so that it looks good in the room editor.
+
+![assign spr_player_idle_0 sprite to player object](images/assignSprite.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
