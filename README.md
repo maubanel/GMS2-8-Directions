@@ -18,7 +18,7 @@ Lets look at various ways of moving a human character in 8 dirctions.
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-simple-movement) <br>
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement 8 Directions](simple-8dir/README.md#user-content-simple-movement-8-directions) <br>
 <kbd></kbd> &nbsp;&nbsp; [Diagonal Speed Fix](diagonal-speed/README.md#user-content-diagonal-speed-fix) <br>
-<kbd></kbd> &nbsp;&nbsp; [Diagonals with 8 Directions](diagonal-8dir/README.md#user-content-diagonal-speed-fix) <br>
+<kbd></kbd> &nbsp;&nbsp; [Diagonals with 8 Directions](diagonal-8dir/README.md#user-content-diagonal-with-8-directions) <br>
 
 
 ## Core Algorithm
