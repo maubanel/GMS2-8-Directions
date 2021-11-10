@@ -49,8 +49,6 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event. Now lets draw a hud:
 
-
-
 ![add draw gui event to player for HUD](images/objPlayerDrawGUI.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
