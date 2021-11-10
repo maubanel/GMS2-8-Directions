@@ -127,13 +127,17 @@ So we will open up **obj_player_diagonals | step** and add floor the result of f
 
 ##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room. Notice that all numbers have no fractional remainder.  So we have solved a future problem when we will have to select the animation based on the angle.
+
+![no fraction left on any angles in game](images/FractionFixed.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we can return the hud back to printing the directions normally.  Open up **obj_player_diagonals** and select the **Draw GUI** event.  Remove or comment out the 
+
+![alt_text](images/normalDirection.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
