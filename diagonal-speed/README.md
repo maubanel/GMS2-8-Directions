@@ -173,25 +173,19 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we want to add a **move_wrap()** to the **step** event so that the player does not leave the screen.  This is not necessary if you have a level that the player cannot move outside the edge of the level.
+
+Now we want to also update the animation.  We are better off doing this after the player has moved as we would have to resolve collisions before we know what state a player ends up in. Now the player moves between the **step** and **end step** events. Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. Make the `image_angle` equal `direction` so the player faces the direction they are moving in.
+
+![add move wrap to ste](images/moveWrapCallFunction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room. Now when you go off the edge you come back on the other side.  The player also faces the correct direction and does not face right when you let go.  We have a much more robust implementation than the simple one we did previously.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+![alt_text](images/DiagonalTopDownFinal.gif)
 
 ___
 
