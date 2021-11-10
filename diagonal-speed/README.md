@@ -157,9 +157,9 @@ Now lets open up **obj_player | Step** event and add a **[var](https://manual.yo
 
 We do not need to keep the two axis variablbes in memory all the time as it is only needed by the **step** event.  So putting `var` in front of it makes it a local variable and is not accessible outside this event.
 
-We will also 
+We will also make our speed consistent across axis by just setting our `speed` to `p_speed`.  WE make sure that we `0` it out when the player is **not** moving.
 
-![alt_text](images/AddSpeedToSTep.png)
+![make axis local and add speed to player step](images/AddSpeedToSTep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
