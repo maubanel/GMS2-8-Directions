@@ -175,13 +175,22 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Now we want to add a **move_wrap()** to the **step** event so that the player does not leave the screen.  This is not necessary if you have a level that the player cannot move outside the edge of the level.
 
-Now we want to also update the animation.  We are better off doing this after the player has moved as we would have to resolve collisions before we know what state a player ends up in. Now the player moves between the **step** and **end step** events. Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. Make the `image_angle` equal `direction` so the player faces the direction they are moving in.
+Now we want to also update the animation.  We are better off doing this after the player has moved as we would have to resolve collisions before we know what state a player ends up in. Now the player moves between the **step** and **end step** events. Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. Call a function we will define called rotate_player();
 
-![add move wrap to ste](images/moveWrapCallFunction.png)
+![add move wrap to step](images/moveWrapCallFunction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Right click* on **Scripts** and select **Create | Script** and name it `scr_movement`. Rename the function to `rotate_player()` and set the `image_angle` to the `direction` the player is pointing in.
+
+![add scr_movement script and add a rotate_player method](images/rotatePlayerFunct.png)
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room. Now when you go off the edge you come back on the other side.  The player also faces the correct direction and does not face right when you let go.  We have a much more robust implementation than the simple one we did previously.
 
@@ -189,7 +198,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
