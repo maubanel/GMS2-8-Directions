@@ -60,8 +60,9 @@ Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event. Now lets 
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room.  All we should have is the player with a title and a HUD and the player does nothing.
 
-![add obj_game to simple movement room](images/.png)
+![play game and go to room with diagonal player, hud and title](images/DiagonalsFixedOne.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
