@@ -106,16 +106,22 @@ Lets use this funciton to see what value we have left over in the fractional par
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room. Notice for 180 we are getting 180.00001526.  This means that when we pick an animation to match 180 we will need to compare it to 180.0001526 to get a match (for that `direction == 180.00001526` to be true).
 
-![alt_text](images/DiagonalsFixedFractionLarger.gif)
+![play game and show decimal left over for 120](images/DiagonalsFixedFractionLarger.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+So since there are some precision errors that can creap in with floats, we really only want a whole number.  So we can truncate everything after the decimal by using a **[floor(num)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/floor.htm)**.
+
+> Returns the floor of n, that is, n rounded down to an integer. This is similar to the round() function, but it only rounds down, no matter what the decimal value, so floor(5.99999) will return 5, as will floor(5.2), floor(5.6457). - GameMaker Manual
+
+So we will open up **obj_player_diagonals | step** and add floor the result of finding angle theta.
+
+![floor value coming to direction in player step](images/floorValuesForDirection.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
