@@ -39,70 +39,59 @@ Now if we are moving at the same magnitude on the horizontal and vertical axis t
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **Objects** and select **New | Object** and name it `obj_game`. Set the **Persistent** to `true` so this object will go from room to room as we add more levels.
+*Double click* on **obj_game | Draw GUI** event and add a title for the Diagonals room.
 
-![add persistent object obj_game](images/objGamePersistent.png)
+![added title for diagonals room in obj_game](images/rmTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-* Set the color to yellow
-* Center the text alignment
-* Pick the **fnt_title** font
-* Add a variable **title**
-* Switch on the room to have different titles in different rooms
-* Draw text to top center of screen
-
-![add draw gui event and add title to level](images/drawGUIGame.png)
+![add draw gui event and add title to level](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **rm_simple_movement** and add an instance of **obj_game** on to the **Instances** layer in the room.
 
-![add obj_game to simple movement room](images/addGameToRoom.png)
+![add obj_game to simple movement room](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that we have a title for the room!
 
-![play game and see title in room](images/titleInGame.png)
+
+![play game and see title in room](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [8DirectionTopDownMovement.yymps](../Assets/8DirectionTopDownMovement.yymps). This is a resized sprite provided by [RGS Dev on itch.io](https://rgsdev.itch.io/animated-top-down-character-base-template-in-pixel-art-rgsdev). Select the **Tools | Import Local Package** menu item.  Open the file you just downloaded above.
 
-![download 8DirectionTopDownMovement.yymps](images/openLocalPackage.png)
+![download 8DirectionTopDownMovement.yymps](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the folder and press the <kbd>Add All</kbd> button.  Make sure you are downloading 8 walk and 8 idle animations.  Press the <kbd>Import</kbd> button to bring them into your project.
 
-![import 16 animations](images/addImport.png)
+![import 16 animations](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
-Now if you press the play button on the sprites you will see that we have 8 directions of walking and idle animations.
 
-![play animation of player walking right](images/ImportAnims.gif)
+
+![play animation of player walking right](images/.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/dupePlayer.png)
+![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
