@@ -165,7 +165,9 @@ We will also make our speed consistent across axis by just setting our `speed` t
 
 ##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and go to the diagonals room. Now you will notice that the player is only updating when they are moving and that the **speed** is the same in all axis and we no longer have the player moving faster running in diagonals.
+
+![run game and notice that speed is consistent across all axis](images/DiagonalsMoving.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
