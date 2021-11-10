@@ -94,7 +94,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
-When we see a decimal point on what we expect is a whole number, there is a concern. This means there is most likely a fractional residue and we are not getting 180 without a decimal left over.  So if we use the 
+When we see a decimal point on what we expect is a whole number, there is a concern. This means there is most likely a fractional residue and we are not getting 180 without a decimal left over.  So if we use the **[string_forma(val, tot, dec)]()**.
+
+> Turns a real number into a string using your own formatting, where you can choose how many "places" are saved to the string and how many decimal places are saved also. Both can be very handy, some games prefer to display a score as a set number of digits, while control over decimal places can be good for a high accuracy the two decimal places of string() cannot provide. If the number of places specified is greater than the value to be shown and/or the number plus the decimal places that have been specified is less than the total places, then spaces will be added before the value to make up the difference (see the example below). Zeros will be added to the right of the decimal point if the value given is less than the total and the number of decimal places to include. - GameMaker Manual
+
+Lets use this funciton to see what value we have left over in the fractional part of this angle we are trying to read.
 
 ![play animation of player walking right](images/printFract.png)
 
