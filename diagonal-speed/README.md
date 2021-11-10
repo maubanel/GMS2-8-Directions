@@ -175,7 +175,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Now we want to add a **move_wrap()** to the **step** event so that the player does not leave the screen.  This is not necessary if you have a level that the player cannot move outside the edge of the level.
 
-Now we want to also update the animation.  We are better off doing this after the player has moved as we would have to resolve collisions before we know what state a player ends up in. Now the player moves between the **step** and **end step** events. Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. Call a function we will define called rotate_player();
+Now we want to also update the animation.  We are better off doing this after the player has moved as we would have to resolve collisions before we know what state a player ends up in. Now the player moves between the **step** and **end step** events. Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. Call a function we will define called `rotate_player();`.
 
 ![add move wrap to step](images/moveWrapCallFunction.png)
 
