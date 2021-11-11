@@ -50,13 +50,17 @@ Open up **obj_player_diagonals_8Dir** and in the **End Step** event comment out 
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Add a new **Room** called `rm_player_diagonals_8Dir`.  Drag an instance of **obj_player_diagonals_8Dir** into the room.
+
+![create rm_player_diagonals_8Dir and put player in it](images/roomDiag8Dir.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game** and add a title called **Diagonals with 8 Directions**.
+
+![add title to obj_game](images/diagonals8DirTItle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
