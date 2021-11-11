@@ -31,7 +31,9 @@ Assign `spr_player_idle_0` as the default sprite so that it looks good in the ro
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/copyFunction.png)
+Open up **obj_player_simple_8Dir | End Step** event.  Copy and paste the **Switch(Direction)** for walking.  Open up `scr_movement`.  Create a new function called `function set_walk_animation()`.  We will paste the contents of the switch statement into this function.
+
+![copy and paste walk anim logic to new function set_walk_animation()](images/copyFunction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
