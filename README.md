@@ -21,6 +21,9 @@ Lets look at various ways of moving a human character in 8 dirctions.
 <kbd></kbd> &nbsp;&nbsp; [Diagonals with 8 Directions](diagonal-8dir/README.md#user-content-diagonals-with-8-directions) <br>
 <kbd></kbd> &nbsp;&nbsp; [Player Acceleration](acceleration/README.md#user-content-player-acceleration) <br>
 
+Animated Turn
+
+Gamepad
 
 ## Core Algorithm
 1. Get Controls
