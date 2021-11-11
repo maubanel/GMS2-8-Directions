@@ -92,7 +92,7 @@ This function sets the sprite to one of the 8 idle animations.
 
 Go back to **obj_player_diagonals_8Dir |End Step** event and call `set_idle_animation()` when the player is not moving.
 
-![alt_text](images/callIdleFunct.png)
+![call set_idle_animation in player end_step](images/callIdleFunct.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
