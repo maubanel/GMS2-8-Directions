@@ -74,20 +74,25 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up **scr_movement** and add another function called
-![alt_text](images/idleFunctionMovement.png)
+Now open up **scr_movement** and add another function called `set_idle_animation()`.  Copy and paste the **Switch** statement for idle animations in **obj_player_simple_8Dir_idle** into the function.
+
+![copy idle animation logic into set_idle_animation function](images/idleFunctionMovement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+This function sets the sprite to one of the 8 idle animations.
+
+![idle animatoin function set_idle_animation()](images/set_idle_animation.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Go back to **obj_player_diagonals_8Dir |End Step** event and call `set_idle_animation()` when the player is not moving.
+
+![alt_text](images/callIdleFunct.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
