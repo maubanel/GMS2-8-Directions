@@ -23,19 +23,25 @@ Right now our player hits max acceleration instantly.  So they can go from stand
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **obj_player_diagonals** and select **Duplicate**.  Call this new object `obj_player_acceleration`. Assign the **Sprite** `spr_player_3`.  Open up the **Create Event** and add a variable called `force`. This will be a weak force as it will be added together each frame.  So even a small number like `.1` will take (2.5 / .1) 25 frames to get to our previous speed of **2.5**.  Now at the default of 60FPS that means that it will take a bit less than half a second.
+
+![dupe diagontals player and add a force variable](images/objPlayerAccelerationCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up the **Step Event** and change `speed = p_speed;` to `speed += force;`.  So instead of going to max speed right away we are adding a force each frame.  Rember that `+=` is the same thing as typing `speed = speed + force;` in shorthand.
+
+![add force in step event](images/addForce.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_acceleration`. Drag a copy of **obj_player_acceleration** to the room.
+
+![create room and add plaeyr](images/addPlayerToRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
