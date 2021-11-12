@@ -166,9 +166,9 @@ Now open up the **obj_player_acceleration_8Dir | End Step** event and:
 
 ##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now notice that the player animation plays at the same speed regardless of what speed the player is at.  So it looks like they are skating while accelerating and it looks wrong.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now notice that the player animation plays at the same speed regardless of what speed the player is at.  So it looks like they are skating while accelerating and it looks wrong (I lowered the force for the player to `.01` to exaggerate the effect for the below video).
 
-![alt_text](images/.png)
+![play game and notice player skates during acceleration](images/SkateOnAccel.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
