@@ -63,7 +63,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player_diagonals | Create** event and lets refactor our code.  Now it is no longer appropriate to call the variable `p_speed`.  Lets chnage the name to `max_speed`.  This better expresses that this is the maximum speed we want the player to get up to. 
+
+![change p_speed to max_speed in the player](images/renameVariable.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
