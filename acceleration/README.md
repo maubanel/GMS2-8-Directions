@@ -114,8 +114,9 @@ Before we set the speed add a boost so that that the player isn't starting from 
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. If you are quick enough when you turn 180 we change directions much faster and it feels a **LOT** better which is what we are looking for.
 
-![alt_text](images/.png)
+![play game snappier turns](images/Snappier180s.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
