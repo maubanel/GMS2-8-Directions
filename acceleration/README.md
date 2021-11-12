@@ -103,7 +103,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+So open up **obj_player_diagonals | Step** event and before we set the speed add a boost so that that the player isn't starting from 0 again. We have an issue though that when we subtract the **direction** to find out if we are moving 180° we might be subtracting 180° - 0 or 0 - 180°.  This gives us a reult of 180° or -180°.  We use **abs** to remove the sign so we can subtract the direction, remove the sign then compare to see if it is equal to 180°.  If it is we apply a boost of half the max speed.
+
+![add boost to step event](images/give180Boost.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
