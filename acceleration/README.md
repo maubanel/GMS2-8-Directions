@@ -71,7 +71,7 @@ Open up **obj_player_diagonals | Create** event and lets refactor our code.  Now
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the **Step** event and we will use the **[clamp(val, min, max)(https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/clamp.htm)]** to clamp the maximum speed. 
+Open up the **Step** event and we will use the **[clamp(val, min, max)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/clamp.htm)** to clamp the maximum speed. 
 
 This function returns the clamped value.  So we send the function our own variable that we want to clamp's current value and it will stop it from going below the **min** or above the **max**.  So we want to clamp **speed** between `0` and `max_speed` (2.5).
 
