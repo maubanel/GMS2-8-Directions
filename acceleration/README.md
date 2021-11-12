@@ -174,7 +174,18 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We are going to use **[image_speed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_speed.htm)**.
+
+> This variable determines the speed in which GameMaker Studio 2 will cycle through the sub-images for the current instance sprite. The speed value given is a multiplier, with 1 being the default value, and setting it to 0.5 will half the animation speed - as set in the Sprite Editor or Image Editor- while setting it to 2 will double it. - GameMaker Manual
+
+So what we can do is we can divide the speed by the `max_speed` and set it to `image_speed`.  So when the player is at a speed of `2.5` it will divide 
+
+```
+image_speed = speed / max_speed
+image_speed = 2.5 / 2.5 // or
+image_speed = 1; or
+```
+![alt_text](images/imageSpeedFix.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
