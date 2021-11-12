@@ -186,7 +186,7 @@ So what we can do is we can divide the speed by the `max_speed` and set it to `i
 image_speed = 1; 
 ```
 
-If the player is moving at 50% of the speed or `.125` pixels per second we would get: 
+If the player is moving at 50% of the speed or `1.25` pixels per second we would get: 
 
 ```
 //image_speed = speed / max_speed // or
