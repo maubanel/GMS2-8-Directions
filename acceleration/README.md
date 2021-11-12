@@ -2,7 +2,7 @@
 
 ### Player Acceleration
 
-<sub>[previous](../diagonal-8dir/README.md#user-content-diagonals-with-8-directions) • [home](../README.md#user-content-gms2-move-in-8-directions) • [next](../Player Breaking Friction)</sub>
+<sub>[previous](../diagonal-8dir/README.md#user-content-diagonals-with-8-directions) • [home](../README.md#user-content-gms2-move-in-8-directions) • [next](../breaking-friction/README.md#user-content-player-breaking-friction)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -222,5 +222,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../diagonal-8dir/README.md#user-content-diagonals-with-8-directions)| [home](../README.md#user-content-gms2-move-in-8-directions) | [next](../Player Breaking Friction)|
+| [previous](../diagonal-8dir/README.md#user-content-diagonals-with-8-directions)| [home](../README.md#user-content-gms2-move-in-8-directions) | [next](../breaking-friction/README.md#user-content-player-breaking-friction)|
 |---|---|---|
