@@ -185,7 +185,17 @@ So what we can do is we can divide the speed by the `max_speed` and set it to `i
 //image_speed = 2.5 / 2.5 // or
 image_speed = 1; 
 ```
-![alt_text](images/imageSpeedFix.png)
+
+If the player is moving at 50% of the speed or `.125` pixels per second we would get: 
+
+```
+//image_speed = speed / max_speed // or
+//image_speed = 1.25 / 2.5 // or
+image_speed = 0.5; 
+```
+So our animation will run at half speed just what we want.  We will add this **after** we clamp the speed so the image_speed does **NOT** go above 1.
+
+![adjust speed of animation](images/imageSpeedFix.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
