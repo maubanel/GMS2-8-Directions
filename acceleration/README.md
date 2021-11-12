@@ -138,7 +138,9 @@ Now that we have diagnosed that problem we can put `force` back to an amount tha
 
 ##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_acceleration_8Dir`. Add **obj_player_acceleration_8Dir** to the room.
+
+![alt_text](images/add8DirToRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
