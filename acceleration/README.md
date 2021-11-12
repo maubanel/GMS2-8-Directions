@@ -181,9 +181,9 @@ We are going to use **[image_speed](https://manual.yoyogames.com/GameMaker_Langu
 So what we can do is we can divide the speed by the `max_speed` and set it to `image_speed`.  So when the player is at a speed of `2.5` it will divide 
 
 ```
-image_speed = speed / max_speed
-image_speed = 2.5 / 2.5 // or
-image_speed = 1; or
+//image_speed = speed / max_speed // or
+//image_speed = 2.5 / 2.5 // or
+image_speed = 1; 
 ```
 ![alt_text](images/imageSpeedFix.png)
 
