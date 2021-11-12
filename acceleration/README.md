@@ -47,23 +47,23 @@ Now open up the **Step Event** and change `speed = p_speed;` to `speed += force;
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
-
 Open up **obj_game | Draw Gui** event and add the title `Player with Acceleration` to the script's **switch** statement.
 
 ![add title to obj_game](images/openGameAddTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you notice the player gets faster each frame.  The problem is that the player keeps accelerating and never hits their top speed.
 
 ![play game and accelerate](images/UnlimitedAcceleration.gif)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
