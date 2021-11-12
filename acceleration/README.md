@@ -154,7 +154,13 @@ Open up **obj_game | Draw Gui** event and add the title `Player with Acceleratio
 
 ##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up the **obj_player_acceleration_8Dir | End Step** event and:
+
+1.  Check to see if player is moving
+2.  If they are call the `set_walk_animation()` function.
+2.  If not call the `set_idle_walk_animation()` function.
+
+![call set walk or set idle in end step](images/setAnims.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
