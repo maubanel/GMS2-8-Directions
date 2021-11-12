@@ -146,7 +146,7 @@ Now that we have diagnosed that problem we can put `force` back to an amount tha
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up **obj_game | Draw Gui** event and add the title `Player with Acceleration` to the script's **switch** statement.
+Open up **obj_game | Draw Gui** event and add the title `Player with Acceleration in 8 directions with Idle` to the script's **switch** statement.
 
 ![alt_text](images/objGameTitle8Dir.png)
 
