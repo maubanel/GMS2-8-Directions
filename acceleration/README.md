@@ -201,13 +201,17 @@ So our animation will run at half speed just what we want.  We will add this **a
 
 ##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+I slowed down the `force` to see the results more clearly.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can see that the animation speed scales with the speed of the player.  Now we can set it back to our normal speed and play the game again.
+
+![play game and notice no more skating](images/Finished8DirAccel.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
 
 ___
 
