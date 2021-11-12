@@ -93,7 +93,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now there is an issue.  Open up **obj_player_diagonals | Create** event and change the **force** to `.01` to exagerate the change. 
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now moving from one direction to diagonals is snappy and fast and feels good.  But when I turn 180° I lift one finger and raise the other.  So it freezes the player then adds another acceleration making turning very sluggish.
+
+![chnage force to .01 and play game while moving 180 degrees to feel sluggishness](images/180Issue.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
