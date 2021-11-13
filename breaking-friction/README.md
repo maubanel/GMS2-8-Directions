@@ -39,7 +39,9 @@ Open up **obj_player_friction | Create** event and add a variable for friction c
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up the **Step** event and lets replace setting the speed to `0` when the player is not moving to reducing the velocity by a small frictional force `p_friction`.
+
+![step event subtract p_friction from speed](images/elseStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
