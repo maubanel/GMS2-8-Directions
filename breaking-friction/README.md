@@ -47,7 +47,7 @@ Now open up the **Step** event and lets replace setting the speed to `0` when th
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_friction`. Drag a copy of **obj_player_friction** to the room.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_breaking_friction`. Drag a copy of **obj_player_friction** to the room.
 
 ![add a new room rm_frictoin and add obj_player_friction](images/newRoomForFriction.png)
 
