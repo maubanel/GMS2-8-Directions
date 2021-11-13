@@ -39,6 +39,29 @@ Open up **obj_animated_turn | Create** event and add a variable that adjusts the
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **scr_movement**. Lets add a new function called `move_towards(angle, frict)`.  **angle** is the angle we would like to change to and **frict** is the speed we get there.  The lower the number, the slower we turn, the larger the number the faster we turn.
+
+First we check to see that we are not already pointing in the correct direction.  If we are we just return the angle unchanged.  If not:
+
+```
+var temp = angle_difference(image_angle, angle);
+```
+
+We need to find the fastest route between two angles,  So if the angle is 90° apart, we not want to rotate -270° we want to take the shortest route either clockwise or counter clockwise.  This is what the **angle_difference(image_anlge, angle)** function returns the quickest angle to our destination!
+
+```
+if (angle - image_angle == 180) temp *= -1;
+```
+This is done so that the image flips rotation when moving positive 180 degrees.  It looks a little bit better to my eyes, but is not absolutely necessary.
+
+```
+temp = image_angle - min(abs(temp), frict * 10) * sign(temp);
+```
+
+This is not as complicated as it looks.  Now our **temp** target could be positive or negative.  So we need to subtract from our image_angle a positive **temp**.  This is what **abs()** does, it removes the sign.  Now for the last step it will overshoot the target if the difference isn't precise.  So we take the smallest mumber the temp, or frict * 10 to get precisely to the target.  We then multiply it by `-1` or `1` which is what **sign(temp)** does.
+
+We return the final degree in angles and **mod** it by 360 which keeps the range from -360 to 360.
+
 ![alt_text](images/scrMovement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
