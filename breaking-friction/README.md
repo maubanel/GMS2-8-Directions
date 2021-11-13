@@ -71,6 +71,12 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lets now take this to a sprite with 8 directions of animation.
+
+1.  *Right click* on **obj_player_friction** and select **Duplicate** and call it `obj_player_friction_8Dir`.
+2.  Assign the **Sprite** `obj_player_idle_0`.
+3. 
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
