@@ -78,13 +78,17 @@ We create a seperate function that calls this method named `rotate_player_animat
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/drawTitle.png)
+Open up **obj_game | Draw GUI** animaton and add a title `Player with Animated Turn` to the level.
+
+![add title to rm_animated_turn](images/drawTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/playerAnimation.png)
+Open up **obj_animated_turn | End Step** event and delete or comment out the calling of function `rotate_player()` and instead call `rotate_player_animation();`.
+
+![call rotate_player_animation() in player end step](images/playerAnimation.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
