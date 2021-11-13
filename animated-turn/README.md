@@ -39,7 +39,7 @@ Open up **obj_animated_turn | Create** event and add a variable that adjusts the
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **scr_movement**. Lets add a new function called `move_towards(angle, frict)`.  **angle** is the angle we would like to change to and **frict** is the speed we get there.  The lower the number, the slower we turn, the larger the number the faster we turn.
+Open up **scr_movement**. Lets add a new function called `rotate_towards(angle, frict)`.  **angle** is the angle we would like to change to and **frict** is the speed we get there.  The lower the number, the slower we turn, the larger the number the faster we turn.
 
 First we check to see that we are not already pointing in the correct direction.  If we are we just return the angle unchanged.  If not:
 
@@ -58,11 +58,13 @@ This is done so that the image flips rotation when moving positive 180 degrees. 
 temp = image_angle - min(abs(temp), frict * 10) * sign(temp);
 ```
 
-This is not as complicated as it looks.  Now our **temp** target could be positive or negative.  So we need to subtract from our image_angle a positive **temp**.  This is what **abs()** does, it removes the sign.  Now for the last step it will overshoot the target if the difference isn't precise.  So we take the smallest mumber the temp, or frict * 10 to get precisely to the target.  We then multiply it by `-1` or `1` which is what **sign(temp)** does.
+This is not as complicated as it looks.  Now our **temp** target could be positive or negative.  So we need to subtract from our image_angle a positive **temp**.  This is what **abs()** does, it removes the sign.  Now for the last step it will overshoot the target if the difference isn't precise.  So we take the smallest mumber the temp, or frict * 10 to get precisely to the target.  We then multiply it by `-1` or `1` which is what **sign(temp)** does. We scale this number by a factor of 10 to bring the turning speed into a similar range as our `force` and `p_friction` ranges.
 
-We return the final degree in angles and **mod** it by 360 which keeps the range from -360 to 360.
+We return the final degree in angles and **mod** it by 360 which keeps the range to stay within -360 to 360.
 
-![alt_text](images/scrMovement.png)
+We create a seperate function that calls this method named `rotate_player_animation`.  This will set the `image_angle` to the next angle closer to its desired target (`direction`).  This does not create any issues with the physics and is purely a visual effect.
+
+![create rotation function to animate player when turning](images/scrMovement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
