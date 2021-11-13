@@ -31,7 +31,7 @@ In a top down game without different angles of animation look much better when w
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **obj_animated_turn | Create** event and add a variable that adjusts the speed of the turn called ``
+Open up **obj_animated_turn | Create** event and add a variable that adjusts the speed of the turn called `turning_frict`
 
 ![alt_text](images/addturningFriction.png)
 
