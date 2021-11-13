@@ -33,19 +33,21 @@ In a top down game without different angles of animation look much better when w
 
 Open up **obj_animated_turn | Create** event and add a variable that adjusts the speed of the turn called `turning_frict`
 
-![alt_text](images/addturningFriction.png)
+![add turning_frict variable to player](images/addturningFriction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/scrMovement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_animated_turn`. 
+
+![alt_text](images/addRm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
