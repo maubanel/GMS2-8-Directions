@@ -45,9 +45,9 @@ Open up **obj_animated_turn | Create** event and add a variable that adjusts the
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_animated_turn`. 
+*Right click* on **Rooms** and select **New | Room** and name it `rm_animated_turn`.  I then dragged a copy of **obj_animated_turn** into the room.
 
-![alt_text](images/addRm.png)
+![add room rm_animated_turn and add player](images/addRm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
