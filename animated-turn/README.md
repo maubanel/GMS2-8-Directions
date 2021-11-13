@@ -23,7 +23,7 @@ In a top down game without different angles of animation look much better when w
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **obj_player_** and select **Duplicate**.  Call this new object `obj_player_acceleration`. Assign the **Sprite** `spr_player_3`.
+*Right click* on **obj_player_friction** and select **Duplicate**.  Call this new object `obj_animated_turn`. Assign the **Sprite** `spr_player_5`.
 
 ![alt_text](images/dupeObject.png)
 
