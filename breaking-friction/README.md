@@ -63,7 +63,9 @@ Open up **obj_game | Draw Gui** event and add a title for the friction room.
 
 ##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the <kbd>Spacebar</kbd> to go to the friction room and press to move then let go. The player now comes to a stop over time and again, looks and feels very different.
+
+![play game and breaking friction takes over when the player lets go of the controls](images/BreakingFriction.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
