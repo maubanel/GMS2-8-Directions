@@ -49,7 +49,7 @@ Now open up the **Step** event and lets replace setting the speed to `0` when th
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_friction`. Drag a copy of **obj_player_friction** to the room.
 
-![alt_text](images/newRoomForFriction.png)
+![add a new room rm_frictoin and add obj_player_friction](images/newRoomForFriction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
