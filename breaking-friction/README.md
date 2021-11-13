@@ -73,11 +73,14 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 Lets now take this to a sprite with 8 directions of animation.
 
-1.  *Right click* on **obj_player_friction** and select **Duplicate** and call it `obj_player_friction_8Dir`.
-2.  Assign the **Sprite** `obj_player_idle_0`.
-3. 
+1.  *Right click* on **obj_player_friction** and select **Duplicate** and call it `obj_player_friction_8Dir`
+2.  Assign the **Sprite** `obj_player_idle_0`
+3.  *Right click* on **Rooms** and select **Create | Room** and call it `rm_breaking_friction`
+4.  Open up **obj_game | Draw GUI** and add a title for this room
+5. 
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/141603562-ecd3a573-94aa-4b24-8584-ea4da7150eeb.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
