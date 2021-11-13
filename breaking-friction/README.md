@@ -81,7 +81,10 @@ Lets now take this to a sprite with 8 directions of animation.
 6. Else call `set_idle_animation();`
 7. *Right click* on **Rooms** and select **Create | Room** and call it `rm_breaking_friction_8Dir`
 8.  Drag **obj_player_friction_8Dir** into the room
-9. 
+9. Open up **obj_game | Draw GUI** and add a title for the room
+10. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. 
+11. Press the <kbd>Spacebar</kbd> to go to the friction room and press to move then let go.
+12. Now the friction works when you let go of the controls
 
 https://user-images.githubusercontent.com/5504953/141603562-ecd3a573-94aa-4b24-8584-ea4da7150eeb.mp4
 
