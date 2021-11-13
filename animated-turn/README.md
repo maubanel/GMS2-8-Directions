@@ -94,6 +94,8 @@ Open up **obj_animated_turn | End Step** event and delete or comment out the cal
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Look at how nicely the player turns making the entire game look much smoother.
+
 ![alt_text](images/animatedTurn.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
