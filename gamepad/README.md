@@ -2,11 +2,11 @@
 
 ### Gamepad
 
-<sub>[previous](../animated-turn/README.md#user-content-animated-turn) • [home](../README.md#user-content-gms2-move-in-8-directions)</sub>
+<sub>[previous](../) • [home](../README.md#user-content-gms2-move-in-8-directions)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now lets look at how we would implement similar controls on a gamepad. We will get more angles than the 8 we get from the keyboard.  We will allow the player to move slower and faster and at all angles, but will only select the closest of the 8 animation directions.
 
 <br>
 
@@ -15,7 +15,8 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Duplicate 
+![alt_text](images/dupeObject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
