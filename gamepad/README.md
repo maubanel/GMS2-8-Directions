@@ -39,6 +39,8 @@ Open up **obj_game | Draw GUI** and add a title for the gamepad room.
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Play the game.  Now the keyboard controls are the same but when playing with a controller, the animation only changes once it reaches that angle.  The issue is that it is a bit late.
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
