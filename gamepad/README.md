@@ -15,8 +15,9 @@ Now lets look at how we would implement similar controls on a gamepad. We will g
 
 ##### `Step 1.`\|`MI8D`|:small_blue_diamond:
 
-Duplicate 
-![alt_text](images/dupeObject.png)
+Duplicate **obj_player_friction_8Dir** and call it `obj_player_gamepad`. 
+
+![duplicate obj_player_friction_8Dir and name obj_player_gamepad](images/dupeObject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
