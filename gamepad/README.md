@@ -31,7 +31,9 @@ Duplicate **obj_player_friction_8Dir** and call it `obj_player_gamepad`.
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game | Draw GUI** and add a title for the gamepad room.
+
+![add title in obj_game draw gui event](images/gameTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
